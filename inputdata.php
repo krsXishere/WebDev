@@ -6,6 +6,10 @@
         <form action = "prosesinput.php" method = "POST">
             <fieldset>
                 <p>
+                    <label >Kode : </label>
+                    <input type="text" name = "Kode" placeholder = "Kode"/>
+                </p>
+                <p>
                     <label >Nama : </label>
                     <input type="text" name = "Nama" placeholder = "Nama Lengkap"/>
                 </p>
