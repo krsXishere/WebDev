@@ -38,7 +38,7 @@
                         <input type="text" name = "Nama" placeholder = "Nama Lengkap" value="<?php echo $siswa['Nama']?>"/>
                     </p>
                     <P>
-                        <label >Alamat : </label>
+                        <label>Alamat : </label>
                         <textarea name="Alamat"><?php echo $siswa['Alamat']?></textarea>
                     </P>
                     <p>

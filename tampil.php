@@ -14,16 +14,16 @@
     <header>
         <h3>Siswa yang sudah mendaftar</h3>
     </header>
-    <table class="table table-sm">
-        <thead>
+    <table class="table">
+        <thead class="thead-dark">
             <tr>
-                <th>Kode</th>
-                <th>Nama</th>
-                <th>Alamat</th>
-                <th>Jenis Kelamin</th>
-                <th>Agama</th>
-                <th>Sekolah Asal</th>
-                <th class="d-flex justify-content-center">Aksi</th>
+                <th scope="col">Kode</th>
+                <th scope="col">Nama</th>
+                <th scope="col">Alamat</th>
+                <th scope="col">Jenis Kelamin</th>
+                <th scope="col">Agama</th>
+                <th scope="col">Sekolah Asal</th>
+                <th scope="col">Edit & Hapus</th>
             </tr>
         </thead>
         <tbody>
@@ -42,8 +42,8 @@
                     echo "<td>".$siswa['AsalSekolah']."</td>";
 
                     echo "<td>";
-                    echo "<a class='btn btn-outline-dark mx-3' href='editdata.php?id=".$siswa['Kode']."'>Edit</a>";
-                    echo "<a class='btn btn-outline-dark' href='hapus.php?id=".$siswa['Kode']."'>Hapus</a>";
+                    echo "<a class='btn btn-outline-dark' href='editdata.php?id=".$siswa['Kode']."'>Edit</a>";
+                    echo "<a class='btn btn-outline-dark mx-3' href='hapus.php?id=".$siswa['Kode']."'>Hapus</a>";
                     echo "<td>";
 
                     echo "<tr>";
