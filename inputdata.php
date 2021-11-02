@@ -11,40 +11,54 @@
             </header>
             <form action = "prosesinput.php" method = "POST">
                 <fieldset>
-                    <p>
-                        <label >Kode : </label>
-                        <input type="text" name = "Kode" placeholder = "Kode"/>
-                    </p>
-                    <p>
-                        <label >Nama : </label>
-                        <input type="text" name = "Nama" placeholder = "Nama Lengkap"/>
-                    </p>
-                    <P>
-                        <label >Alamat : </label>
-                        <textarea name="Alamat"></textarea>
-                    </P>
-                    <p>
-                        <label >Jenis Kelamin : </label>
-                        <label><input type="radio" name = "JenisKelamin" value = "Laki-laki">Laki-laki</label>
-                        <label><input type="radio" name = "JenisKelamin" value = "Perempuan">Perempuan</label>
-                    </p>
-                    <p>
-                        <label >Agama : </label>
-                        <select name="Agama">
-                            <option>Islam</option>
-                            <option>Kristen</option>
-                            <option>Hindu</option>
-                            <option>Budha</option>
-                            <option>Kong Hu Cu</option>
-                        </select>
-                    </p>
-                    <p>
-                        <label >Asal Sekolah</label>
-                        <input type="text" name = "AsalSekolah" placeholder = "Nama Sekolah"/>
-                    </p>
-                    <p>
-                        <input class="btn btn-outline-dark" type="submit" value = "Daftar" name = "Daftar"/>
-                    </p>
+                    <div class="container">
+                        <div class="form-group">
+                            <p>
+                                <label >Kode : </label>
+                                <input type="text" name = "Kode" placeholder = "Kode"/>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <p>
+                                <label >Nama : </label>
+                                <input type="text" name = "Nama" placeholder = "Nama Lengkap"/>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <P>
+                                <label >Alamat : </label>
+                                <textarea name="Alamat"></textarea>
+                            </P>
+                        </div>
+                        <div class="md-group">
+                            <p>
+                                <label >Jenis Kelamin : </label>
+                                <label><input type="radio" name = "JenisKelamin" value = "Laki-laki">Laki-laki</label>
+                                <label><input type="radio" name = "JenisKelamin" value = "Perempuan">Perempuan</label>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <p>
+                                <label >Agama : </label>
+                                <select name="Agama">
+                                    <option>Islam</option>
+                                    <option>Kristen</option>
+                                    <option>Hindu</option>
+                                    <option>Budha</option>
+                                    <option>Kong Hu Cu</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="form-group">
+                            <p>
+                                <label >Asal Sekolah</label>
+                                <input type="text" name = "AsalSekolah" placeholder = "Nama Sekolah"/>
+                            </p>
+                        </div>
+                        <p>
+                            <input class="btn btn-outline-success" type="submit" value = "Daftar" name = "Daftar"/>
+                        </p>
+                    </div>
                 </fieldset> 
             </form>
         </div>
