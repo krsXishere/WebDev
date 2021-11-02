@@ -76,7 +76,7 @@
                             </p>
                         </div>
                         <p>
-                            <input class="btn btn-outline-dark" type="submit" value = "Simpan" name = "Simpan"/>
+                            <input class="btn btn-outline-success" type="submit" value = "Simpan" name = "Simpan"/>
                         </p>
                     </div>
                 </fieldset> 

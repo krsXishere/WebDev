@@ -12,7 +12,7 @@
 
 <div class="container">
     <header>
-        <h3>Siswa yang sudah mendaftar</h3>
+        <h3 align="center">Siswa yang sudah mendaftar</h3>
     </header>
     <table class="table table-hover">
         <thead class="thead-dark">
