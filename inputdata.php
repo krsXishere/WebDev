@@ -11,7 +11,6 @@
             </header>
             <form action = "prosesinput.php" method = "POST">
                 <fieldset>
-                    <div class="container">
                         <div class="form-group">
                             <label for="Kode" class="form-label">Kode</label>
                             <input type="text" name = "Kode" placeholder = "Kode" class="form-control"/>
@@ -53,7 +52,6 @@
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end mx-6">
                             <input class="btn btn-outline-success" type="submit" value = "Daftar" name = "Daftar"/>
                         </div>
-                    </div>
                 </fieldset> 
             </form>
         </div>

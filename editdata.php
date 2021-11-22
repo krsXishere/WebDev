@@ -19,8 +19,7 @@
 <html>
     <div class="p-3 mb-2 bg-dark text-white" style="height: 1000px;">
         <body>
-            <div class="container">
-                <header>
+            <header>
                     <h3 align="center">Edit Data Siswa Baru</h3>
                     <meta charset="UTF-8">
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -75,7 +74,6 @@
                         </div>
                     </fieldset> 
                 </form>
-            </div>
         </body>
     </div>
 </html>
